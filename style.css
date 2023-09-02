@@ -4,6 +4,7 @@ html, body{
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -16,6 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 6px;
 }
 
 .row{
@@ -24,7 +26,16 @@ body{
     height: 100%;
 }
 
-.cell{
+.btn{
+    padding: 6px 16px;
+    background-color: rgb(145, 70, 70);
+    color: white;
     border: 1px solid black;
+    cursor: pointer;
+
+}
+
+.cell{
+    border: 1px solid rgb(145, 70, 70);
     flex: 1;
 }
