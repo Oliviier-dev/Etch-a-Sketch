@@ -35,4 +35,8 @@ function createGrids(gridSize){
 
 }
 
-createGrids(gridSize);
+if (gridSize <= 64){
+    createGrids(gridSize);
+} else{
+    alert("Enter a short gridSize number");
+}
